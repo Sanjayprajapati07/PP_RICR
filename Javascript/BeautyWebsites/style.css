@@ -1,0 +1,27 @@
+
+        /* Custom Gradient Background */
+        .navbar-custom {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            height: 80px;
+        }
+        .navbar-custom .nav-link {
+            color: white !important;
+            font-weight: 500;
+            transition: color 0.3s ease-in-out;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #f1f1f1 !important;
+        }
+        .search-box {
+            max-width: 300px;
+            height: 50px;
+        }
+        .btn-custom {
+            background-color: #ff477e;
+            border: none;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn-custom:hover {
+            background-color: #e6396a;
+        }

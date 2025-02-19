@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container" id="con1">I am a container</div>
+    <button id="drk" onclick="dark()">dark them</button>
+    <button id="lgt" onclick="light()">light them</button>
+    <button id="theme" onclick="changetheme()">Dark theme</button>
+    <script src="script.js"></script>
+
+    <button id="red" onclick="changeColor('red')">red</button>
+    <button id="green" onclick="changeColor('green')">green</button>
+    <button id="blue" onclick="changeColor('blue')">blue</button>
+
+    <input type="color" name="color" id="colour" onchange="changeColor(value)">
+</body>
+</html>

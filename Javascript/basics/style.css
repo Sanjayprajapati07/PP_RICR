@@ -1,0 +1,25 @@
+
+body {
+    font-family: Arial, sans-serif;
+
+    /* border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 500px; */
+}
+.form {
+    max-width: 500px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.qualification{
+    display: flex;
+}
