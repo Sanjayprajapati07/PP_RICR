@@ -92,7 +92,7 @@ const Weather = () => {
 
       {loading ? (
         <div className="mt-6">
-          <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading..." className="w-16 h-16" />
+          <img src="https://i.gifer.com/SVKl.gif" alt="Loading..." className="w-20 h-20" />
         </div>
       ) : mausam && mausam.cod === 200 ? (
         <div className="mt-6 bg-white p-6 rounded-lg shadow-xl w-96 text-center text-gray-900">
